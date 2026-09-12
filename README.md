@@ -18,27 +18,27 @@ This project was built as part of the **DevConnect Verified Frontend Internship*
 
 ### Desktop Homepage
 
-![Desktop Homepage](<./screenshots/01. Desktop Homepage.png>)
+![Desktop Homepage](./screenshots/01-desktop-homepage.png)
 
 ### Successful Search
 
-![Successful Search](<./screenshots/02. Desktop Successful Search.png>)
+![Successful Search](./screenshots/02-desktop-successful-search.png)
 
 ### Empty State
 
-![Empty State](<./screenshots/03. Desktop Empty State.png>)
+![Empty State](./screenshots/03-desktop-empty-state.png)
 
 ### Error State
 
-![Error State](<./screenshots/04. Desktop Error State.png>)
+![Error State](./screenshots/04-desktop-error-state.png)
 
 ### About Page
 
-![About Page](<./screenshots/05. Desktop About Page.png>)
+![About Page](./screenshots/05-desktop-about-page.png)
 
 ### Mobile Search
 
-![Mobile Search](<./screenshots/06. Mobile Successful Search.png>)
+![Mobile Search](./screenshots/06-mobile-successful-search.png)
 
 ---
 
@@ -136,7 +136,7 @@ All required states can be demonstrated without modifying the source code.
 
 ### Success
 
-Search for: `javascript`
+Search for: `react`
 
 ### Empty
 
