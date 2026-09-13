@@ -479,9 +479,7 @@ All requirements are covered by the current implementation.
 
 ## Status
 
-**Completed**
-
-Built and deployed as part of the DevConnect Verified Frontend Internship.
+**Completed, reviewed, and deployed as part of the DevConnect Verified Frontend Internship, run by Vyren.**
 
 ---
 
