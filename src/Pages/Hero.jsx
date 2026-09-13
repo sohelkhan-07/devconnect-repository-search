@@ -73,13 +73,18 @@ const Hero = () => {
 
       <div className="mx-auto w-full max-w-4xl">
         {loading && (
-          <p className="mt-10 text-center text-sm text-[#706B78]">
+          <p
+            className="mt-10 text-center text-sm text-[#706B78]"
+            aria-live="polite"
+          >
             Searching repositories...
           </p>
         )}
 
         {error && (
-          <p className="mt-10 text-center text-sm text-[#CF222E]">{error}</p>
+          <p className="mt-10 text-center text-sm text-[#CF222E]" role="alert">
+            {error}
+          </p>
         )}
 
         {!loading && !error && hasSearched && repositories.length === 0 && (
