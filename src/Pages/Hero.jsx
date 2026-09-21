@@ -32,7 +32,7 @@ const Hero = () => {
       const data = await response.json();
 
       setRepositories(data.items || []);
-    } catch (error) {
+    } catch {
       setRepositories([]);
       setError("Unable to fetch repositories. Please try again.");
     } finally {
