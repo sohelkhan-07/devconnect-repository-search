@@ -53,7 +53,12 @@ const Hero = () => {
       <div className="mx-auto mt-20 w-full max-w-4xl">
         <form onSubmit={handleSearch}>
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-2">
+            <label htmlFor="repository-search" className="sr-only">
+              Search repositories
+            </label>
+
             <input
+              id="repository-search"
               className="h-12 w-full rounded-lg border border-[#D0D7DE] bg-white px-3 outline-none focus:border-[#4B6478]"
               type="text"
               placeholder="Search repositories..."
